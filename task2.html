@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Table</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+}
+        body {
+            font-family: Arial, sans-serif;
+            color: rgb(34, 33, 33);
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        /* 將第一行的背景顏色設為灰色 */
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        tr:nth-child(odd) {
+            background-color: #a1a1a1;
+        }
+        tr:first-child {
+            background-color: rgb(20, 20, 20);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+        </tr>
+        <tr>
+            <td>7:30</td>
+            <td>Breakfast</td>
+            <td>Breakfast</td>
+            <td>Breakfast</td>
+        </tr>
+        <tr>
+            <td>8:00</td>
+            <th rowspan="2" style="background-color: aqua;">blblblb</th>
+            <th rowspan="3" style="background-color: rgb(133, 97, 216);">blblblb</th>
+            <th rowspan="2" style="background-color: rgb(233, 104, 64);">blblblb</th>
+        </tr>
+        <tr>
+            <td>8:30</td>
+        </tr>
+        <tr>
+            <td>9:00</td>
+            <th rowspan="2" style="background-color: rgb(173, 61, 149);">blblblb</th>
+            <th rowspan="2" style="background-color: rgb(105, 236, 65);">blblblb</th>
+        </tr>
+        <tr>
+            <td>9:30</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
